@@ -3,7 +3,7 @@ name: Codequiry Check
 on:
   push:
     branches:
-      - master
+      - main
     paths:
       - '**/*.zip'  # Trigger on zip file changes
       # - '**/*.py'   # Trigger on Python file changes
