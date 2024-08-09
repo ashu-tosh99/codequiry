@@ -40,7 +40,7 @@ def print_lines():
         '''
     ]
     
-    interval = 120 / len(lines)   #new updated
+    interval = 120 / len(lines)   #comment
     
     placeholder = st.empty()
     
@@ -50,6 +50,3 @@ def print_lines():
 
 if __name__ == "__main__":
     print_lines()
-
-
-#this is a message
