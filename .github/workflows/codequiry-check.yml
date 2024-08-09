@@ -5,9 +5,8 @@ on:
     branches:
       - master
     paths:
-      - '*/.cs'
-      - '*/.py'
-
+      - '**/*.cs'
+      - '**/*.py'
 jobs:
   codequiry-check:
     runs-on: ubuntu-latest
